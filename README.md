@@ -2,15 +2,15 @@
 
 # Added Work for Cal Poly Pomona's Deep Learning Class
 
-To get started, you’ll need to install **WSL (Windows Subsystem for Linux)** on a computer with an **NVIDIA GPU**. Our team successfully used **Ubuntu 20.04.6** along with the latest versions of [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) and [PyTorch](https://pytorch.org/).
+To get started, install **[WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install)** on a computer equipped with an **NVIDIA GPU**. Our team had success using **Ubuntu 20.04.6**, along with the latest versions of the [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) and [PyTorch](https://pytorch.org/).
 
-We were able to gather data successfully using an **NVIDIA GTX 1660 Ti** GPU. Newer NVIDIA GPUs released after this model should result in faster compilation and training times.
+We successfully gathered data using an **NVIDIA GTX 1660 Ti**. Using newer NVIDIA GPUs (released after this model) should result in faster compilation and training times.
 
 ---
 
 ## Setup Instructions
 
-While in the home directory, navigate to the `difflogic` folder:
+While in your home directory, navigate to the `difflogic` folder:
 
 ```shell
 cd difflogic
@@ -23,16 +23,18 @@ pip install difflogic
 pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 -f https://download.pytorch.org/whl/torch_stable.html  # CUDA 11.7
 ```
 
-Refer to our [ChatGPT conversation](https://chatgpt.com/share/68088ee6-b508-8001-b787-95bed57b65e4) for troubleshooting tips and solutions for issues such as additional dependency installation via `requirements.txt`.
+Refer to our [ChatGPT conversation](https://chatgpt.com/share/68088ee6-b508-8001-b787-95bed57b65e4) for troubleshooting steps, including installing additional dependencies listed in `requirements.txt`.
 
 ---
 
 ## Datasets
 
-Datasets like **MNIST** and **CIFAR-10** will be downloaded automatically when the Python scripts are run for the first time.
+Datasets such as **MNIST** and **CIFAR-10** are automatically downloaded when running the Python scripts for the first time. For reference, here are direct links to the dataset descriptions:
+
+* [MNIST – UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/683/mnist+database+of+handwritten+digits)
+* [CIFAR-10 – UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/691/cifar+10)
 
 ---
-
 
 # The following is forked from the original repo
 
