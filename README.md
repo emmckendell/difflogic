@@ -35,8 +35,6 @@ Datasets like **MNIST** and **CIFAR-10** will be downloaded automatically when t
 
 ---
 
-Let me know if you want to add specific dataset links or clean up the README further.
-
 
 # The following is forked from the original repo
 
