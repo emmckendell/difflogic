@@ -1,3 +1,45 @@
+Here’s a cleaner, more professional version of your Markdown file with improved grammar, structure, and hyperlinks added:
+
+---
+
+# Added Work for Cal Poly Pomona's Deep Learning Class
+
+To get started, you’ll need to install **WSL (Windows Subsystem for Linux)** on a computer with an **NVIDIA GPU**. Our team successfully used **Ubuntu 20.04.6** along with the latest versions of [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) and [PyTorch](https://pytorch.org/).
+
+We were able to gather data successfully using an **NVIDIA GTX 1660 Ti** GPU. Newer NVIDIA GPUs released after this model should result in faster compilation and training times.
+
+---
+
+## Setup Instructions
+
+While in the home directory, navigate to the `difflogic` folder:
+
+```shell
+cd difflogic
+```
+
+Install the required Python libraries:
+
+```shell
+pip install difflogic
+pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 -f https://download.pytorch.org/whl/torch_stable.html  # CUDA 11.7
+```
+
+Refer to our [ChatGPT conversation](https://chatgpt.com/share/68088ee6-b508-8001-b787-95bed57b65e4) for troubleshooting tips and solutions for issues such as additional dependency installation via `requirements.txt`.
+
+---
+
+## Datasets
+
+Datasets like **MNIST** and **CIFAR-10** will be downloaded automatically when the Python scripts are run for the first time.
+
+---
+
+Let me know if you want to add specific dataset links or clean up the README further.
+
+
+# The following is forked from the original repo
+
 # difflogic - A Library for Differentiable Logic Gate Networks
 
 ![difflogic_logo](difflogic_logo.png)
