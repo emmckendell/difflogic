@@ -1,5 +1,3 @@
-Here’s a cleaner, more professional version of your Markdown file with improved grammar, structure, and hyperlinks added:
-
 ---
 
 # Added Work for Cal Poly Pomona's Deep Learning Class
